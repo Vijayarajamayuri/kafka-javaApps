@@ -20,4 +20,4 @@ Here the topic name is test1 and group name is group1
 
 java -cp target/kafka-javaApps-1.0-SNAPSHOT-jar-with-dependencies.jar com.nwms.mayuri.kafka.CustomProducer test1
 
-In the producer Terminal you will be prompted to enter the text that want to be encrypted. After you are done with entering the text you can find the encrypted text on the consumer terminal
+In the producer Terminal you will be prompted to enter the text that want to be count the number of digits. After you are done with entering the text you can find the count of the text on the consumer terminal
