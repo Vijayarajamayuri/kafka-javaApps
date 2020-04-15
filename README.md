@@ -11,6 +11,10 @@
 
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
+### Compile and Build Fat Jar Files
+
+mvn clean compile assembly:single
+
 ### Start the Consumer 
 
 Here the topic name is test1 and group name is group1
